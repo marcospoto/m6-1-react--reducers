@@ -37,8 +37,6 @@ export const BookingProvider = ({ children }) => {
     });
   };
 
-  console.log(state);
-
   return (
     <BookingContext.Provider
       value={{
